@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 # Get credentials from environment variables with fallbacks
 API_ID = int(os.getenv("API_ID", "26176218"))
 API_HASH = os.getenv("API_HASH", "4a50bc8acb0169930f5914eb88091736")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "6946655182:AAEzKh7e0lPz2of03897CVpRq8-tMzsjM24")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "6946655182:AAFitxLxNr0eUOfXPInNrEaWIFUS5AENKSU")
 
 # Initialize the Pyrogram client
 app = Client("filetobot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
